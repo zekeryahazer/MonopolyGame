@@ -6,7 +6,7 @@ Kotlin ile geliştirilmiş, gelişmiş yapay zeka (Bot) desteği ve dinamik aray
 
 | Giriş Ekranı | Oyun Masası (2 Kişilik) |
 |:---:|:---:|
-| ![Giriş](screenshots/giris.png) | ![Oyun](screenshots/oyun.png) |
+| ![Giriş](screenshots/giris.jpg) | ![Oyun](screenshots/oyun.jpg) |
 
 *(Not: Buradaki resim isimleri senin koyduğun isimlerle aynı olmalı)*
 
