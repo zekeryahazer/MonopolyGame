@@ -6,14 +6,13 @@ Kotlin ile geliştirilmiş, gelişmiş yapay zeka (Bot) desteği ve dinamik aray
 
 | Giriş Ekranı | Oyun Masası (2 Kişilik) |
 |:---:|:---:|
-| ![Giriş](screenshots/giris.jpg) | ![Oyun](screenshots/oyun.jpg) |
-
-*(Not: Buradaki resim isimleri senin koyduğun isimlerle aynı olmalı)*
+| ![Giriş](giris.jpg) | ![Oyun](oyun.jpg) |
 
 ## 🌟 Özellikler
 
 * **Akıllı Bot Sistemi:** Yapay zeka, parası yetiyorsa mülk alır, sıkışırsa ipotek yapar, takas tekliflerini değerlendirir.
-* **Dinamik Arayüz:** * 2 kişilik oyunlarda oyuncular sağ ve sol kenarlara yaslanır (Ferah görünüm).
+* **Dinamik Arayüz:**
+    * 2 kişilik oyunlarda oyuncular sağ ve sol kenarlara yaslanır (Ferah görünüm).
     * 4-6 kişilik oyunlarda ekran ızgara (grid) sistemine döner.
 * **Özelleştirilebilir Oyun:** Oyuncu sayısı (1-6) ve Bot sayısı (0-5) seçilebilir.
 * **Tam Oyun Kuralları:**
