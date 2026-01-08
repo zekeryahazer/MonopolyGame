@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#E0F7FA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OYUN KURULUMU"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#006064"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Adım: Kaç İnsan Oynayacak? (Min: 1 - Max: 6)"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#455A64"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="10dp">
+
+        <EditText
+            android:id="@+id/etHumanCount"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="Örn: 1"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/btnSetNames"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Onayla"
+            android:backgroundTint="#0097A7"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:id="@+id/namesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Adım: Kaç Bot Eklensin?"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#455A64"/>
+
+    <EditText
+        android:id="@+id/etBotCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Örn: 1 (Eğer insan sayısı azsa ekle)"
+        android:inputType="number"
+        android:maxLength="1"
+        android:text="0"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnStartGame"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="OYUNU BAŞLAT 🎲"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>
